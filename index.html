@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mico Hospital</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="contact-info">
+                <p>Call: +011 1234567890 | Email: demo@gmail.com | <a href="#">Location</a></p>
+            </div>
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Mico Logo">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Treatment</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="auth-links">
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
+                <form action="/search" method="get" style="display:inline;">
+                    <input type="text" name="query" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+            
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1><span class="mico">Mico</span> </h1>
+                 <h1>hospital </h1>
+              
+                <p>Mico Hospital's layout prioritizes patient convenience and operational efficiency, with well-organized departments for seamless healthcare delivery.</p>
+                <button>Contact Us</button>
+            </div>
+            <div class="image-container">
+                <img src="slider-img.jpg" alt="Hospital Image">
+                <img src="dots.png" alt="Dots Image">
+            </div>
+        </section>
+
+       
+        <section class="additional-images">
+            
+            <img src="prev.png" alt="Previous Icon">
+            <img src="next.png" alt="Next Icon">
+        </section>
+
+        <section class="appointment-card">
+            <h2><span class="books">Book</span> <span class="appointments">Appointment</span></h2>
+            <form>
+                <div class="form-group">
+                    <input type="text" id="patient-name" name="patient-name" placeholder="Patient Name">
+                </div>
+                <div class="form-group">
+                    <select id="doctor-name" name="doctor-name">
+                        <option value="normal-distribution">Doctor's Name</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <select id="department-name" name="department-name">
+                        <option value="normal-distribution">Department's Name</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="phone-number" name="phone-number" placeholder="Phone Number" value="XXXXXXXXXX">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="symptoms" name="symptoms" placeholder="Symptoms">
+                </div>
+                <div class="form-group">
+                    <input type="date" id="date" name="date" value="2024-07-03">
+                </div>
+                <button type="submit">Submit Now</button>
+            </form>
+        </section>
+        
+    </main>
+</body>
+</html>
